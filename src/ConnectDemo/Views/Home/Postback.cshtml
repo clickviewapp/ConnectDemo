@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model ConnectDemo.Models.PostBackModel
+
+<div class="text-center">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Key</th>
+            <th scope="col">Value</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>School Id</td>
+            <td>@Model.SchoolId</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
